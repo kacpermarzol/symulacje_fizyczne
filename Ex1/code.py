@@ -95,7 +95,6 @@ def collide_balls(b1, b2):
         b2["vel"]["x"] -= impulse_x
         b2["vel"]["y"] -= impulse_y
 
-# --- Simulation step ------------------------------------------
 def simulate():
     for ball in balls:
         # Air resistance
